@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="checkbox_pref"
+    android:title="settings">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="world"
+        android:title="World news"></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="football"
+        android:title="Football"></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="sport"
+        android:title="Sport"></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="tv-and-radio"
+        android:title="Tv and Radio"></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="australia-news"
+        android:title="Australia News"></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="news"
+        android:title="News"></CheckBoxPreference>
+
+
+</PreferenceScreen>
